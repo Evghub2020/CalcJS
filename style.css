@@ -1,0 +1,64 @@
+body{
+    background-image: url(../CalcJS/img/1626739220_8-kartinkin-com-p-kalkulyator-fon-krasivo-9.jpg);
+    background-size: 100%;
+}
+
+
+.content{
+
+    margin-top:400px;
+    font-size: 18px;
+    
+}
+
+
+.calc-title{
+    color: #ffffff;
+    margin: 50px 0 30px 0;
+}
+
+.js-input-a{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.js-input-b{
+    width: 220px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.js-btn-result {
+    margin: 35px 0 0 0;
+	box-shadow:inset 0px 0px 3px 0px #6fada5;
+	background:linear-gradient(to bottom, #59a18e 5%, #509c9c 100%);
+	background-color:#62c5ab;
+	border-radius:10px;
+	border:1px solid #5daa92;
+	display:inline-block;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 27px;
+	text-decoration:none;
+	text-shadow:1px 2px 3px #43978c;
+}
+.js-btn-result:hover {
+	background:linear-gradient(to bottom, #88afaf 5%, #73a89a 100%);
+	background-color:#417c7c;
+}
+.js-btn-result:active {
+	position:relative;
+	top:1px;
+}
+
+.equal{
+    color: #ffffff;
+}
+
+.js-output{
+    font-size: 22px;
+    color: #ffffff;
+}
